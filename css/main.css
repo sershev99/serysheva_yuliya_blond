@@ -148,3 +148,162 @@ color: #fdfbfb;
 
 
 /*ниже адаптация под телефон*/
+@media (max-width: 700px), screen and (orientation: portrait) {
+	.hero-section {
+		margin-top: -33%;
+	}
+	.portfolio {
+		margin-top: -43%;
+	}
+	.one {
+z-index: -2;
+margin-left: 10vw;
+}
+	
+	.to {
+z-index: 1;
+margin-left: 10vw;
+	}
+	.text {
+		position: absolute;
+	right: 22vh;
+	top: 40vh;
+		width: 40vw;
+		height: 8vh;
+	}
+	.thr {
+		position: absolute;
+		left: 55.3vh !important;
+		height: 8vh !important;
+		top: 19vh !important;
+	}
+	.main-title {/*Настройка позициоирования текста "думай как блондинка"*/
+		/*font-size: calc(var(--index) * 10);*/
+		position: absolute;
+		/*width: calc(var(--index) * 20);*/
+		bottom: 30vh;
+		left: -28%;
+		/*right: -17vw;*/
+		line-height: .9;
+		font-size: calc(var(--index) * 8);
+		position: absolute;
+		width: min-content;
+		bottom: 23vh;
+		top: 3vh;
+		height: 25vh;
+		line-height: .9;
+			}
+		
+	.main-title .thr {
+		margin: 98%;
+		position: absolute;
+    top: -20vh;
+    left: 20vh;
+	height: 5vh;
+}
+.acad {
+	width: calc(var(--index) *11);
+	height: calc(var(--index) * 10);
+	position: absolute;
+	left: 35vw;
+	top: -3vh;
+	z-index: 3;
+}
+	
+	.main-title .hh {
+		width: 200%;
+	}
+	.hero {
+		width: calc(var(--index) * 20);
+		position: absolute;
+		left: 45vw;
+		top: 13vh;
+		z-index: -1;
+	}
+
+.hero-but {
+	width: calc(var(--index) * 22);
+	position: relative;
+	left: 8vw;
+	top: 63vh;
+	z-index: 3;
+}
+.button-footer {
+	position: relative;
+	left: -5vw;
+	top:-6vh;
+	z-index: 3;
+}
+	button {
+		width: 270px !important;
+	height: 38px;
+	flex-shrink: 0;
+	border-radius: 338.824px;
+	background: #C1FF11;
+	box-shadow: 0px 5px 15px 3px #800E50;
+	}
+	
+	button:active {
+		width: 235px;
+	height: 38.4px;
+	background: #e61b1b;
+	color: #fdfbfb;
+	}
+
+	.main-header {
+		height: 100vh;
+	}
+
+	.container {
+		padding: 0 7vw;
+	}
+
+	
+
+	.gallery {
+	display: flex;
+	padding: calc(var(--index) * 8) 0;
+}
+.gallery > * {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.gallery__item {
+	max-width: calc(var(--index) * 15.2);
+	margin-bottom: var(--gallery-gap);
+	max-height: 180vh;
+	border-radius: 8px;
+}
+.gallery__left {
+	margin-top: calc(var(--gallery-gap) * 1.75);
+}
+.gallery__right .gallery__item {
+	margin: 0;
+	margin-top: var(--gallery-gap);
+}
+.text-block {
+	color: var(--color-text);
+	position: relative;
+}
+.text-block__h {
+	font-size: 1rem;
+	line-height: 1.2rem;
+	color: var(--color-header);
+	margin-bottom: 1rem;
+}
+.text-block__p {
+	line-height: 1.5;
+	font-size: 2vh;
+}
+/*кнопка*/
+
+}
+
+/* кроссбраузерность для safari*/@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) { 
+	body {
+		background: linear-gradient(180deg, #EA028B 0%, #FF62C0 20.83%, #FFBBE4 33.85%, #FFDAF0 38.56%, #FF62C0 60.42%, #F09 73.96%, #FFF 100%);
+		mix-blend-mode: difference;
+	   }
+}
