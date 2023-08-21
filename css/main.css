@@ -149,9 +149,9 @@ color: #fdfbfb;
 
 /*ниже адаптация под телефон*/
 @media (max-width: 700px) {
-	body {
+	/* body {
 		max-width: 320px;
-	}
+	}*/
 	.hero-section {
 		margin-top: -33%;
 	}
