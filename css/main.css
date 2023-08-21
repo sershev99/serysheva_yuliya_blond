@@ -148,9 +148,9 @@ color: #fdfbfb;
 
 
 /*ниже адаптация под телефон*/
-@media (max-width: 700px) and screen and (orientation: portrait) and (min-device-width: 290px) and (max-device-width: 700px) {
+@media (max-width: 700px) {
 	body {
-		max-width: 490px !important;
+		max-width: 320px !important;
 	}
 	.hero-section {
 		margin-top: -33%;
