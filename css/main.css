@@ -150,7 +150,7 @@ color: #fdfbfb;
 /*ниже адаптация под телефон*/
 @media (max-width: 700px) {
 	body {
-		max-width: 320px !important;
+		max-width: 320px;
 	}
 	.hero-section {
 		margin-top: -33%;
@@ -304,9 +304,10 @@ margin-left: 10vw;
 
 }
 
-/* кроссбраузерность для safari*/@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) { 
+/* кроссбраузерность для safari @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) { 
 	body {
 		background: linear-gradient(180deg, #EA028B 0%, #FF62C0 20.83%, #FFBBE4 33.85%, #FFDAF0 38.56%, #FF62C0 60.42%, #F09 73.96%, #FFF 100%);
 		mix-blend-mode: difference;
 	   }
 }
+*/
