@@ -149,9 +149,9 @@ color: #fdfbfb;
 
 /*ниже адаптация под телефон*/
 @media (max-width: 700px) {
-	 body {
+	/* body {
 		max-width: 110px;
-	}
+	}*/
 	.hero-section {
 		margin-top: -33%;
 	}
@@ -176,7 +176,7 @@ margin-left: 10vw;
 	}
 	.thr {
 		position: absolute;
-		left: 55.3vh !important;
+		left: 35.3vh !important;
 		height: 8vh !important;
 		top: 19vh !important;
 	}
@@ -185,7 +185,7 @@ margin-left: 10vw;
 		position: absolute;
 		/*width: calc(var(--index) * 20);*/
 		bottom: 30vh;
-		left: -28%;
+		left: -25%;
 		/*right: -17vw;*/
 		line-height: .9;
 		font-size: calc(var(--index) * 8);
