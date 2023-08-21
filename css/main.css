@@ -183,7 +183,7 @@ margin-left: 10vw;
 		position: absolute;
 		/*width: calc(var(--index) * 20);*/
 		bottom: 30vh;
-		left: -26%;
+		left: -27%;
 		/*right: -17vw;*/
 		line-height: .9;
 		font-size: calc(var(--index) * 8);
