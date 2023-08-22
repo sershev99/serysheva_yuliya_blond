@@ -173,7 +173,7 @@ margin-left: 10vw;
 		height: 8vh;
 	}
 	.thr {
-		position: absolute;
+		position: absolute !important;
 		left: 38.5vw !important;
 		rigt: 0vw !important;
 		height: 8vh !important;
