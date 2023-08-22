@@ -174,7 +174,7 @@ margin-left: 10vw;
 	}
 	.thr {
 		position: absolute;
-		left: 40.3vw !important;
+		left: 45.3vw !important;
 		height: 8vh !important;
 		top: 19vh !important;
 	}
@@ -225,13 +225,13 @@ margin-left: 10vw;
 .hero-but {
 	width: calc(var(--index) * 22);
 	position: relative;
-	left: 8vw;
+	left: 10vw;
 	top: 63vh;
 	z-index: 3;
 }
 .button-footer {
 	position: relative;
-	left: -5vw;
+	left: -1vw;
 	top:-6vh;
 	z-index: 3;
 }
