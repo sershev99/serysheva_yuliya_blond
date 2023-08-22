@@ -174,7 +174,7 @@ margin-left: 10vw;
 	}
 	.thr {
 		position: absolute;
-		left: 33.5vw !important;
+		left: 38.5vw !important;
 		rigt: 0vw !important;
 		height: 8vh !important;
 		top: 19vh !important;
@@ -213,7 +213,7 @@ margin-left: 10vw;
 }
 	
 	.main-title .hh {
-		width: 60%;
+		width: 30%;
 	}
 	.hero {
 		width: calc(var(--index) * 20);
