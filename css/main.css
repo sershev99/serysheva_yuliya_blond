@@ -167,14 +167,14 @@ margin-left: 10vw;
 	}
 	.text {
 		position: absolute;
-	right: 20vw;
+	right: 30vw;
 	top: 40vh;
 		width: 40vw;
 		height: 8vh;
 	}
 	.thr {
 		position: absolute;
-		left: 25.3vw !important;
+		left: 40.3vw !important;
 		height: 8vh !important;
 		top: 19vh !important;
 	}
@@ -183,7 +183,7 @@ margin-left: 10vw;
 		position: absolute;
 		/*width: calc(var(--index) * 20);*/
 		bottom: 30vh;
-		left: -26%;
+		left: -21%;
 		/*right: -17vw;*/
 		line-height: .9;
 		font-size: calc(var(--index) * 8);
@@ -272,7 +272,7 @@ margin-left: 10vw;
 	flex-direction: column;
 }
 .gallery__item {
-	max-width: calc(var(--index) * 14.5);
+	max-width: calc(var(--index) * 12.5);
 	margin-bottom: var(--gallery-gap);
 	max-height: 180vh;
 	border-radius: 8px;
